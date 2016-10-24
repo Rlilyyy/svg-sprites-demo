@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 var plugins = [
   new HtmlWebpackPlugin({
     filename: './index.html',
-    template: './index.html'
+    template: './template/index.html'
   })
 ];
 
@@ -16,7 +16,7 @@ plugins.push(
 
 module.exports = {
   entry: {
-    app: './index.js',
+    app: './js/index.js',
   },
 
   output: {
